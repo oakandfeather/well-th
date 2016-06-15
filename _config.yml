@@ -3,7 +3,7 @@ baseurl:
 
 # Site settings
 title: Community Well-th
-email: eli@weblively.com
+email: daniel@danielgmiller.com
 description: "Community Well-th is an umbrella non-profit organization that receives grants and funding for philanthropic aims that are healing, spiritually based, and community oriented."
 
 
@@ -47,7 +47,7 @@ social:
 #  - title: twitter
 #    url: http://twitter.com/jekyllrb
   - title: facebook
-    url: https://www.facebook.com/
+    url: https://www.facebook.com/community.well.th/
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket 

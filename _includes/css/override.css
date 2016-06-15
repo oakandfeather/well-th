@@ -1,7 +1,155 @@
-header .intro-text .intro-heading {
-    margin-bottom: 20px;
+.text-white-drop {
+	color: #ffffff;
+	text-shadow: black 0.1em 0.1em 0.2em;	
 }
 
 section h3.about-subheading {
     margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 35px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+.event-img {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+	width: 3em;
+    height: 3em;
+    line-height: 3em;
+    vertical-align: middle;
+}
+
+#event .section-heading {
+    font-family: {{ site.data.template.font.secondary }};
+	text-transform: none;
+}
+
+#event .section-subheading {
+}
+
+section#community {
+    background-color: #222;
+    background-image: url('{{ site.github.url }}/img/bamboo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#community .form-group {
+    margin-bottom: 25px;
+}
+
+section#community .form-group input,
+section#community .form-group textarea {
+    padding: 20px;
+}
+
+section#community .form-group input.form-control {
+    height: auto;
+}
+
+section#community .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#community .form-control:focus {
+    border-color: #{{ site.data.template.color.primary }};
+    box-shadow: none;
+}
+
+section#community::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#community:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#community::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#community:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#community .text-danger {
+    color: #e74c3c;
+}
+
+#mc_embed_signup {
+	background:#fff; 
+	border-radius: 10px;
+	clear:left; 
+	font-family: {{ site.data.template.font.primary }};
+	padding: 15px 0;
 }
