@@ -157,13 +157,12 @@ section#community .text-danger {
 #mc_embed_signup div#mce-responses {
     float: left;
     top: -1.4em;
-    /* padding: 0em .5em 0em .5em; */
     overflow: hidden;
-    /* width: 90%; */
-    /* margin: 0 5%; */
     clear: both;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
-
 #mc_embed_signup div.response {
     margin: 0 0 1em 0;
     padding: 0 .5em .5em 0;
