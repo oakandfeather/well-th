@@ -21,6 +21,14 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+header .intro-text .intro-lead-in-secondary {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 18px;
+    line-height: 18px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
@@ -43,6 +51,13 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 200px;
         padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in-secondary {
+        margin-bottom: 35px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 30px;
+        line-height: 30px;
     }
 
     header .intro-text .intro-lead-in {
